@@ -7,7 +7,6 @@ URL_REGEX = r"(?i)\b((?:https?://|www\d{0,3}[.]|[a-z0-9.\-]+[.][a-z]{2,4}/)(?:[^
 SENTENCE_PATTERNS = [
     URL_REGEX,
     r'LEARNING OBJECTIVES By the end of this section, you should be able to: *',
-    r'*',
     r'KEY CONCEPTS AND SUMMARY',
     r'Chapter \d+',
     r'^\n+\d+$',
